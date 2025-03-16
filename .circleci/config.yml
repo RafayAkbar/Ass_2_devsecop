@@ -20,7 +20,7 @@ jobs:
       - checkout
       - run:
           name: Build Docker Image
-          command: docker build -t rafay60/ass_2_devsecop
+          command: docker build -t rafay60/ass_2_devsecop .
       - run:
           name: Push Docker Image to Docker Hub
           command: |
